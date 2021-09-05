@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 90vh;
+  margin: 10px auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.title {
+  background-color: pink;
+  padding: 5px;
+  display: inline-block;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 6px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+
+  background-color: pink;
+  width: 90vh;
+  height: 90vh;
+  margin: 20px auto;
+  padding: 20px;
+
+  border-radius: 6px;
+}
+
+.item {
+  background-color: yellow;
+  border-radius: 6px;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.h1 {
+  background-color: aquamarine;
+  padding: 6px;
+  border-radius: 6px;
+}

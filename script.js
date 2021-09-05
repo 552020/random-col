@@ -26,3 +26,10 @@ document.querySelector(".h1").addEventListener("click", function () {
   console.log("hallo-h1");
   this.style.backgroundColor = randomColor();
 });
+
+document.querySelector(".elle").addEventListener("click", function () {
+  console.log("hallo-h1");
+  document
+    .querySelectorAll(".all")
+    .forEach((el) => (el.style.backgroundColor = randomColor()));
+});
